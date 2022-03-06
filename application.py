@@ -1,5 +1,8 @@
 from flask import Flask
 
+# EB looks for an 'application' callable by default.
+application = Flask(__name__)
+
 # print a nice greeting.
 def say_hello(username = "World"):
     return '<p>Hello %s!</p>\n' % username
@@ -13,9 +16,6 @@ instructions = '''
     someone specific.</p>\n'''
 home_link = '<p><a href="/">Back</a></p>\n'
 footer_text = '</body>\n</html>'
-
-# EB looks for an 'application' callable by default.
-application = Flask(__name__)
 
 # add a rule for the index page.
 application.add_url_rule('/', 'index', (lambda: header_text +
