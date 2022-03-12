@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 
 application = Flask(__name__)
 
 @application.route('/')
-def helloworld():
-    return "Hello World! This is my first web application! I have made some changes!"
+def index():
+    return render_template('home.html')
 
 if __name__ == "__main__":
-    application.run(debug=True)
+   application.run()

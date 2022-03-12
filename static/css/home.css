@@ -1,0 +1,47 @@
+body {
+  background-color: #fafcfe;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px!important;
+}
+
+.name_centre{
+  margin: 0;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.construction_centre{
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.linkedin_centre{
+  height:25px;
+  width:25px;
+  margin: 0;
+  position: absolute;
+  top: 47.5%;
+  left: 48.8%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.github_centre{
+  height:25px;
+  width:25px;
+  margin: 0;
+  position: absolute;
+  top: 47.5%;
+  left: 51.2%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
