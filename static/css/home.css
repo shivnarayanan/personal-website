@@ -16,7 +16,7 @@ body {
 .construction_centre{
   margin: 0;
   position: absolute;
-  top: 45%;
+  top: 46%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -27,7 +27,7 @@ body {
   width:25px;
   margin: 0;
   position: absolute;
-  top: 47.5%;
+  top: 48.5%;
   left: 48.8%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -38,7 +38,7 @@ body {
   width:25px;
   margin: 0;
   position: absolute;
-  top: 47.5%;
+  top: 48.5%;
   left: 51.2%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
