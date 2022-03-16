@@ -22,26 +22,22 @@ body {
   transform: translate(-50%, -50%)
 }
 
-.linkedin_centre{
-  height:25px;
-  width:25px;
+div.centre{
+  max-width: 825px;
+  text-align: center;
   margin: 0;
   position: absolute;
-  top: 48.5%;
-  left: 48.8%;
+  top: 44%;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
 
-.github_centre{
+.image_centre{
   height:25px;
   width:25px;
-  margin: 0;
-  position: absolute;
-  top: 48.5%;
-  left: 51.2%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  border: 5px solid #fafcfe;
 }
+
 
 
