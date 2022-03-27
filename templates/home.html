@@ -1,27 +1,21 @@
-<!doctype html>
+{% extends "base.html" %}
 
-<html lang="en">
-<head>
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/home.css') }}">
-</head>
-
-<body>
+{% block content %}
     <div class="centre">
-        <h1>SHIV NARAYANAN</h1>
-        <p>Hello. I am currently a second-year undergradute at the Singapore Management University studying 
-            Information Systems with a major in Smart City Management and Technology. I have a keen interest 
-            in Coud and Data Engineering and have been picking up the relevant skills during my free time. I would 
-            greatly appreciate any opportunity that would help me cultivate and further hone my skills. </p>
+        <nav>
+            <div><b>HOME</b></div>
+            <div class="boxhead"><a href=projects>PROJECTS</a></div>
+            <div class="boxhead"><a href=about>ABOUT</a></div>
+        </nav>
 
-        <p>Apart from that, I am a coffee lover and you can find me running at Punggol Waterway every evening.</p>
+        <h1>Hello, I am Shiv.</h1>
+        <p>Hello, I am Shiv Narayanan, an Information Systems undergraduate at Singapore Management University. 
+            I have a keen interest in Coud and Data Engineering and would greatly appreciate any opportunity that would help me 
+            cultivate and further hone my skills. </p>
 
-        <p>Take a look at my Linkedin and GitHub to find out more about me!</p> 
-              
+        <p>Take a look at my Linkedin to find out more about me!</p> 
+                
         <a href="https://www.linkedin.com/in/shiv-narayanan/">
             <img class="image_centre" src="static/images/linkedin-logo.svg"></a> 
-        <a href="https://github.com/shivnarayanan?tab=repositories">
-            <img class="image_centre" src="static/images/github.svg"></a> 
-        </div>
-    <p class="construction_bottom"> ~ I am currently setting up the backend infrastructure for this site and will soon add in more content ~ </p>
-</body>
-</html>
+    </div>
+{% endblock content %}
