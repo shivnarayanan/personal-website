@@ -57,10 +57,9 @@ div {
   padding-left: 15px;
 }
 
+a {text-decoration: none; color:grey;}
 a:visited { text-decoration: none; color:grey; }
-a:hover { text-decoration: none; color:grey; }
-a:focus { text-decoration: none; color:grey; }
-a:hover, a:active { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
 
 .boxhead a {
   text-decoration: none;
