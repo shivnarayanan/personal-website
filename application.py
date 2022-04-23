@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 
 application = Flask(__name__)
 
@@ -10,13 +10,13 @@ def start():
 def home():
     return render_template('home.html')
 
-@application.route('/about')
-def about():
-    return render_template('about.html')
+@application.route('/experience')
+def experience():
+    return render_template('experience.html')
 
-@application.route('/projects')
-def projects():
-    return render_template('projects.html')
+@application.route('/blog')
+def testing():
+    return render_template('blog.html')
 
 if __name__ == "__main__":
    application.run(debug=True)
