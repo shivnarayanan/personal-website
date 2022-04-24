@@ -60,7 +60,6 @@ body {
 .article_image{
   height:450px;
   width:800px;
-  border: 1px solid black;
 }
 
 nav {
@@ -87,5 +86,14 @@ a:hover { text-decoration: none; color:black; }
 
 .navigation {
   background-color:#fafcfe;
+}
+
+.about_left a {
+  color: #0066CC;
+}
+
+.about_left a:hover {
+  color: #0066CC;
+  text-decoration: underline;
 }
 
