@@ -1,13 +1,39 @@
 {% extends "base.html" %}
 
 {% block content %} 
-    <nav>
+    <nav class="navigation">
         <div class="boxhead"><a href=home>HOME</a></div>
-        <div><b>EXPERIENCE</b></div>
+        <div class="boxhead"><b>EXPERIENCE</b></div>
         <div class="boxhead"><a href=blog>BLOG</a></div>
     </nav>
-    <div class="centre">
-        <h1>MY EXPERIENCE</h1>
-        <p>I'm currently doing a 3-month data engineering internship at Health Promotion Board and in 2023 I will be doing a 6-month data engineering internship at Temasek.</p>
+    <div class="blog_centre">
+        <h3 class="about_left">WORK EXPERIENCE</h3>
+        <hr class="rounded">
+        <div class="about_left">
+            <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
+            <p style="margin-top: 0px;"><b>Health Promotion Board</b> · 3-Months Internship</p>
+            <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">May 2022 - Aug 2022</p>
+            <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Chief Data Officer's Office (CDOO) </p>
+
+            <ul>
+                <li>Designed optimal data structures for strategic datasets and defined new data engineering processes related to data ingestion, data imputation, 
+                    data transformation and integration to facilitate data science and analytics use cases.</li>
+                <li>Translated research and analytics questions into data features to facilitate dashboarding,
+                    model training, analytics, and data science applications</li>
+            </ul>
+        </div>
+        <div class="about_left">
+            <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
+            <p style="margin-top: 0px;"><b>Temasek</b> · 6-Months Internship</p>
+            <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">Jan 2023 - Jun 2023</p>
+            <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Digital Technology </p>
+
+        </div>
+    <h3 class="about_left">PERSONAL PROJECTS</h3>
+    <hr class="rounded">
+    <h3 class="about_left">CERTIFICATIONS</h3>
+    <hr class="rounded">
+
     </div>
 {% endblock content %}
+

@@ -97,3 +97,9 @@ a:hover { text-decoration: none; color:black; }
   text-decoration: underline;
 }
 
+hr.rounded {
+  border-top: 6px solid grey;
+  border-radius: 4px;
+  margin-top: -15px;
+}
+
