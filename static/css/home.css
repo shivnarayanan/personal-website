@@ -103,3 +103,23 @@ hr.rounded {
   margin-top: -15px;
 }
 
+/* ------------------------------- */
+
+.collapsible {
+  width: 800px;
+  font-family: sans-serif;
+  text-align: left;
+  background-color: #fafcfe;
+  color: black;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.content {
+  padding: 0px;
+  background-color: #fafcfe;
+  max-height: 0;
+  overflow: hidden;
+}

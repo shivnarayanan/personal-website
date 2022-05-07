@@ -7,41 +7,74 @@
         <div class="boxhead"><a href=blog>BLOG</a></div>
     </nav>
     <div class="blog_centre">
-        <h3 class="about_left">WORK EXPERIENCE</h3>
-        <hr class="rounded">
-        <div class="about_left">
-            <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
-            <p style="margin-top: 0px;"><b>Health Promotion Board</b> · 3-Months Internship</p>
-            <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">May 2022 - Aug 2022</p>
-            <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Chief Data Officer's Office (CDOO) </p>
+        <button type="button" class="collapsible">
+            <h3>WORK EXPERIENCE <span style="float:right; font-size:20px">&#11139;</span></h3>
+            <hr class="rounded">
+        </button>
+        <div class="content" style="max-height: max-content;">
+            <div class="about_left">
+                <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
+                <p style="margin-top: 0px;"><b>Health Promotion Board</b> · 3-Months Internship</p>
+                <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">May 2022 - Aug 2022</p>
+                <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Chief Data Officer's Office (CDOO) </p>
 
-            <ul>
-                <li>Designed optimal data structures for strategic datasets and defined new data engineering processes related to data ingestion, data imputation, 
-                    data transformation and integration to facilitate data science and analytics use cases.</li>
-                <li>Translated research and analytics questions into data features to facilitate dashboarding,
-                    model training, analytics, and data science applications</li>
-            </ul>
+                <ul>
+                    <li>Designed optimal data structures for strategic datasets and defined new data engineering processes related to data ingestion, data imputation, 
+                        data transformation and integration to facilitate data science and analytics use cases.</li>
+                    <li>Translated research and analytics questions into data features to facilitate dashboarding,
+                        model training, analytics, and data science applications</li>
+                </ul>
+            </div>
+            <div class="about_left">
+                <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
+                <p style="margin-top: 0px;"><b>Temasek</b> · 6-Months Internship</p>
+                <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">Jan 2023 - Jun 2023</p>
+                <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Digital Technology </p>
+            </div>
         </div>
-        <div class="about_left">
-            <p style="margin-top: 0px; float: right; color:rgb(95, 95, 95); font-size: 100%">Singapore</p>
-            <p style="margin-top: 0px;"><b>Temasek</b> · 6-Months Internship</p>
-            <p style="margin-top: -15px; float: right; color:rgb(95, 95, 95); font-size: 96%">Jan 2023 - Jun 2023</p>
-            <p style="margin-top: -15px; font-size: 96%; font-style: italic;"> Data Engineer, Digital Technology </p>
+        
+        <button type="button" class="collapsible">
+            <h3>PERSONAL PROJECTS <span style="float:right; font-size:20px">&#11139;</span></h3>
+            <hr class="rounded">
+        </button>
+        <div class="content">
+            <div class="about_left">
+                <p style="margin-left: -6px; margin-top: 0px;">TESTING123 TESTING123 TESTING123 TESTING TESTING TESTING TESTING TESTING123 TESTING TESTING TESTING123 TESTING TESTING TESTING 
+                    TESTING TESTING123 TESTING TESTING123 TESTING TESTING TESTING TESTING TESTING123 TESTING123 TESTING TESTING TESTING123 TESTING TESTING TESTING TESTING TESTING TESTING </p>
+            </div>
+        </div>
 
+        <button type="button" class="collapsible">
+            <h3>CERTIFICATIONS <span style="float:right; font-size:20px">&#11139;</span></h3>
+            <hr class="rounded">
+        </button>
+        <div class="content">
+            <div class="about_left">
+                <p style="margin-left: -6px; margin-top: 0px;">These certifications are by no means a true indication of my skills or experience in a SaaS/IaaS/PaaS. I just enjoy getting my hands dirty 
+                    and these certifications were a good place to start when I wanted to learn more about a SaaS/IaaS/PaaS. Each of these certifications took two months of preparation on average. </p>
+                <ul>
+                    <li>AWS Certified Cloud Practioner (<a href=https://www.credly.com/badges/ae9087a9-77bc-4e69-97bf-54a48f0294a8?source>Credly Badge</a>)</li>
+                </ul>
+            </div>
         </div>
-   
-    <h3 class="about_left">PERSONAL PROJECTS</h3>
-    <hr class="rounded">
-    
-    <h3 class="about_left">CERTIFICATIONS</h3>
-    <hr class="rounded">
-    <p class="about_left" style="margin-top: 0px;">These certifications are by no means a true indication of my skills or experience in a SaaS/IaaS/PaaS. I just enjoy getting my hands dirty 
-        and these certifications were a good place to start when I wanted to learn more about a SaaS/IaaS/PaaS. Each of these certifications took two months of preparation on average. </p>
-    <div class="about_left">
-        <ul>
-            <li>AWS Certified Cloud Practioner (<a href=https://www.credly.com/badges/ae9087a9-77bc-4e69-97bf-54a48f0294a8?source>Credly Badge</a>)</li>
-        </ul>
     </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
 
     </div>
 {% endblock content %}
