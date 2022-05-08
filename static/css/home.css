@@ -117,9 +117,25 @@ hr.rounded {
   font-size: 18px;
 }
 
+.collapsible span{ 
+  color: white; 
+} 
+.collapsible span:before{ 
+  content: '\002B'; 
+  position: absolute; 
+  color: #000;  
+}
+.collapsible.active span:before{ 
+  content: '\00D7';  
+}
+
 .content {
   padding: 0px;
   background-color: #fafcfe;
   max-height: 0;
   overflow: hidden;
 }
+
+
+
+  
