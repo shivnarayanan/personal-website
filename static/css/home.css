@@ -48,6 +48,13 @@ body {
   height:30px;
   width:30px;
   border: 5px solid #fafcfe;
+  opacity: 0.8;
+}
+
+.image_centre:hover{
+  opacity: 0.9;
+  filter: alpha(opacity=80);
+  text-decoration:none;
 }
 
 .medium_centre{
