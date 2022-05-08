@@ -138,6 +138,8 @@ hr.rounded {
 
 .content {
   padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #fafcfe;
   max-height: 0;
   overflow: hidden;
