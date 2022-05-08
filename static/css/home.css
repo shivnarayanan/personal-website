@@ -126,7 +126,7 @@ hr.rounded {
   color: #000;  
 }
 .collapsible.active span:before{ 
-  content: '\00D7';  
+  content: 'x';  
 }
 
 .content {
