@@ -48,11 +48,11 @@ body {
   height:30px;
   width:30px;
   border: 5px solid #fafcfe;
-  opacity: 0.8;
+  opacity: 0.;
 }
 
 .image_centre:hover{
-  opacity: 0.9;
+  opacity: 1.0;
   filter: alpha(opacity=80);
   text-decoration:none;
 }
