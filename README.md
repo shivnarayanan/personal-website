@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website that was built with Flask and deployed using AWS Elastic Beanstalk. The website is a work in progress. 
+This is my personal website that was built with Flask, HTML, CSS and deployed using AWS Elastic Beanstalk. The website is a work in progress. 
 
 This project explores the following skills:
   1. Web Design (HTML, CSS)
